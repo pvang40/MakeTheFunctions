@@ -4,7 +4,7 @@
 using namespace std;
 
 //prototypes:
-  void fillWith (vector< int>, int); 
+  void fillWith (vector< int>&, int); 
   void printVector (vector<int> ); 
   bool isPositive (int); 
 
@@ -56,11 +56,11 @@ bool isPositive(int input)
     }
 } 
 
-void fillWith( vector< int> grid , int number) 
+void fillWith( vector< int>& grid , int number) 
 { 
 for (int r = 0; r < grid.size(); r++)
 { 
-        grid[r] = number;
+      grid[r] = number;
      
 }
 }
