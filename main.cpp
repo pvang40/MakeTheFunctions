@@ -56,7 +56,7 @@ bool isPositive(int input)
     }
 } 
 
-void fillWith ( vector< int> grid , int number) 
+void fillWith( vector< int> grid , int number) 
 { 
 for (int r = 0; r < grid.size(); r++)
 { 
@@ -65,10 +65,10 @@ for (int r = 0; r < grid.size(); r++)
 }
 }
 
-void printVector (vector< int > printOut) 
+void printVector(vector< int > printOut) 
 { 
 for(int r=0; r < printOut.size(); r++) 
 { 
-        printOut[r]; 
+    cout<<    printOut[r] << " " ;  
 }
  } 
