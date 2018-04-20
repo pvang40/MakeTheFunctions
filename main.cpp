@@ -4,6 +4,8 @@
 using namespace std;
 
 //prototypes:
+  void fillWith (vector< int>, int); 
+  void printVector (vector<int> ); 
 
 
 /////DO NOT TOUCH/////
@@ -42,3 +44,19 @@ int main()
 }
 
 //function definitions
+void fillWith ( vector< int> grid , int number) 
+{ 
+for (int r = 0; r < grid.size(); r++)
+{ 
+        grid[r] = number;
+     
+}
+}
+
+void printVector (vector< int > printOut) 
+{ 
+for(int r=0; r < printOut.size(); r++) 
+{ 
+        printOut[r]; 
+}
+ } 
