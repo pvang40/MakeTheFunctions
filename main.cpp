@@ -46,13 +46,13 @@ int main()
 //function definitions
 bool isPositive(int input)
 { 
-    if (input > 0) 
+    if (input >= 0) 
     { 
-    input = true; 
+    return true; 
     } 
     else 
     { 
-    input = false;
+    return false;
     }
 } 
 
